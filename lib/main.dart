@@ -1,5 +1,3 @@
-import 'package:go/views/vendor_details.dart';
-
 import 'imports.dart';
 
 void main() {
@@ -15,7 +13,7 @@ class ZumahGO extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: SignIn(),
     );
   }
 }
