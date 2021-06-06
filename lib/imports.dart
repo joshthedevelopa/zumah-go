@@ -11,6 +11,7 @@ export 'views/sign_in.dart';
 export 'views/sign_up.dart';
 export 'views/home_tab_view.dart';
 export 'views/history_tab_view.dart';
+export 'views/profile_tab_view.dart';
 
 // components 
 export "components/custom_listtile.dart";

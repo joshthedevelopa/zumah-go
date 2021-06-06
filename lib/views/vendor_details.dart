@@ -16,7 +16,11 @@ class VendorDetails extends StatelessWidget {
                     Expanded(
                       child: Center(child: Text("VENDOR", style: TextStyle(color: k_mainColor, fontWeight: FontWeight.w500, fontSize: k_fontSize * 1.4))),
                     ),
-                    IconButton(icon: Icon(Icons.call), color: k_mainColor, onPressed: () {}),
+                    IconButton(
+                      icon: Icon(Icons.call), 
+                      color: k_mainColor, 
+                      onPressed: () {}
+                    ),
                   ],
                 ),
               ),

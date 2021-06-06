@@ -1,3 +1,5 @@
+import 'package:go/views/statistics_tab_view.dart';
+
 import "../imports.dart";
 
 class Home extends StatelessWidget {
@@ -15,9 +17,9 @@ class Home extends StatelessWidget {
                   physics: NeverScrollableScrollPhysics(),
                   children: [
                     HomeTabView(),
+                    StaticticsTabView(),
                     HistoryTabView(),
-                    Text("3"),
-                    Text("4"),
+                    ProfileTabView()
                   ],
                 ),
               ),
@@ -48,8 +50,8 @@ class Home extends StatelessWidget {
                           BottomNavyBarItem(
                             activeColor: Colors.white,
                             inactiveColor: Colors.white70,
-                            icon: Icon(Icons.pending_actions),
-                            title: Center(child: Text("Status")) 
+                            icon: Icon(Icons.analytics_outlined),
+                            title: Center(child: Text("Statistics")) 
                           ),
                           BottomNavyBarItem(
                             activeColor: Colors.white,
